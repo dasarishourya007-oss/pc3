@@ -5,5 +5,5 @@ class TestApp(unittest.TestCase):
     def test_addition(self):
         self.assertEqual(10 + 20, 30)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     unittest.main()
